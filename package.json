@@ -1,0 +1,29 @@
+{
+  "name": "copilot-feature-manager",
+  "version": "1.0.0",
+  "description": "AI-powered feature management application using GitHub Copilot",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "keywords": [
+    "features",
+    "management",
+    "ai",
+    "copilot",
+    "react",
+    "express"
+  ],
+  "author": "Aman Kapoor",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
